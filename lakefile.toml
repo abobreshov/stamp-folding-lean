@@ -1,0 +1,18 @@
+name = "stamp-folding-lean"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["LeanPool"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.31.0-rc1"
+
+[[lean_lib]]
+name = "LeanPool"
