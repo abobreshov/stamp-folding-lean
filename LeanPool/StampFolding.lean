@@ -7,9 +7,9 @@ Authors: abobreshov
 import LeanPool.StampFolding.Basic
 
 /-!
-# Stamp foldings as non-crossing hinge permutations: the first five counts
+# Stamp folding, the first five counts
 
-Source: url:https://oeis.org/A000136, arxiv:1302.2025
+Source: arxiv:1302.2025, url:https://oeis.org/A000136
 Authors: abobreshov
 Status: verified
 Main declarations: `StampFolding.card_foldings_five`
